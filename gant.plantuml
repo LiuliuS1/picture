@@ -1,0 +1,9 @@
+@startuml test
+[开发创建的接口] lasts 10 days
+[开发浏览的接口] lasts 10 days
+[开发详情的接口] lasts 3 days
+Project starts 2021-11-01
+[开发创建的接口] starts 2021-11-01
+[开发浏览的接口] starts at [开发创建的接口]'s end
+[开发详情的接口] starts 2021-11-11
+@enduml 
